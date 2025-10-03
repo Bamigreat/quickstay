@@ -11,7 +11,7 @@ import HotelReg from "./components/HotelReg";
 import Dashboard from "./pages/hotelOwner/Dashboard";
 import AddRoom from "./pages/hotelOwner/AddRoom";
 import ListRoom from "./pages/hotelOwner/ListRoom";
-import Layout from "./pages/hotelOwner/layout";
+import Layout from "./pages/hotelOwner/Layout";
 
 const App = () => {
   const isOwnerPath = useLocation().pathname.includes("owner");
